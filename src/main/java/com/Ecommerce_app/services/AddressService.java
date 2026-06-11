@@ -76,6 +76,7 @@ public class AddressService {
     public void deleteAddress(
             Long addressId) {
 
+        System.out.println("sanaullah");
         addressRepository
                 .deleteById(addressId);
     }
